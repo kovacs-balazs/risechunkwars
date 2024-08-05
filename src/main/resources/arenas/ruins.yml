@@ -1,0 +1,24 @@
+name: ruins
+displayName: "&aRuins"
+
+world: "world"
+
+schematic: "ruins.schem"
+
+types:
+  - SOLO
+  - DOUBLES
+  - SQUAD
+
+offsets:
+  lobby_spawn: "world; 0, 0, 0, 0, 0"
+  team1_spawns:
+    - "world; 8, 5, -10, -90, 0"
+    - "world; 8, 0, -10, -90, 0"
+  team2_spawns:
+    - "world; -8, 5, -10, 90, 0"
+    - "world; -8, 0, -10, 90, 0"
+
+times:
+  waiting: 60
+  starting: 10

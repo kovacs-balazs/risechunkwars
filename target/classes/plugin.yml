@@ -1,0 +1,7 @@
+name: RiseChunkWars
+version: '1.0.0'
+main: me.koba1.risechunkwars.Main
+api-version: '1.19'
+depend: [ WorldEdit ] # Kingdoms,
+soft_depend:
+  - Multiverse-Core
